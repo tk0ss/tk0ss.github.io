@@ -7,4 +7,9 @@
 body {
   background: #0b0d0f;
   color: #e8eaed;
+  font-family: 'Inter', sans-serif;
+}
+
+h1 {
+  font-family: 'Cormorant Garamond', serif;
 }
