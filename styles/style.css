@@ -5,13 +5,39 @@
 }
 
 body {
-  background: #0b0d0f;
-  color: #e8eaed;
+  background: #17130e;
+  color: #d8cfc2;
   font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
-h1 {
+section {
+  padding: 20px;
+}
+
+h1,
+h2,
+h3 {
   font-family: "Cormorant Garamond", serif;
+  margin: 40px 20px 20px;
+}
+
+/* use rem for accessibility, it scales with zoom */
+h1 {
+  font-size: 3.999rem;
+}
+
+h2 {
+  font-size: 2.666rem;
+}
+
+h3 {
+  font-size: 1.333rem;
+}
+
+p {
+  margin-bottom: 20px;
 }
 
 nav ul {
@@ -22,10 +48,17 @@ nav ul {
 
 a {
   text-decoration: none;
-  color: #e8eaed;
+  color: #d8cfc2;
 }
 
 header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+}
+
+footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
