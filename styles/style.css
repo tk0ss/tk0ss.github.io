@@ -20,7 +20,7 @@ h1,
 h2,
 h3 {
   font-family: "Cormorant Garamond", serif;
-  margin: 40px 20px 20px;
+  margin: 40px 0px 20px;
 }
 
 /* use rem for accessibility, it scales with zoom */
@@ -49,6 +49,12 @@ nav ul {
 a {
   text-decoration: none;
   color: #d8cfc2;
+}
+
+/* 1ch = width of "0" character in font, 65ch = 65 charcater long, this is good practice */
+.content {
+  max-width: 65ch;
+  margin: 0 auto;
 }
 
 header {
