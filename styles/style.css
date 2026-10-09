@@ -64,6 +64,10 @@ header {
   padding: 20px 30px;
 }
 
+.logo {
+  height: 40px;
+}
+
 footer {
   display: flex;
   justify-content: space-between;
