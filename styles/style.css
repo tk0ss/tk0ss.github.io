@@ -122,3 +122,10 @@ footer {
   align-items: center;
   padding: 20px 30px;
 }
+
+@media (max-width: 630px) {
+  /* rules that only apply at 630px and below */
+  .cards {
+    flex-direction: column;
+  }
+}
