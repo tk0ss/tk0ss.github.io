@@ -68,6 +68,16 @@ header {
   height: 40px;
 }
 
+.cards {
+  display: flex;
+  gap: 20px;
+}
+
+.card img {
+  width: 100%;
+  display: block;
+}
+
 footer {
   display: flex;
   justify-content: space-between;
