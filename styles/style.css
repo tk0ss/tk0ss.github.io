@@ -77,6 +77,17 @@ header {
   height: 40px;
 }
 
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 3s ease, transform 3s ease;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .cards {
   display: flex;
   gap: 20px;
